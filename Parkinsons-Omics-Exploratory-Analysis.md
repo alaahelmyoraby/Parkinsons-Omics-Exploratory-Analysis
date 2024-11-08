@@ -1,7 +1,3 @@
-It seems I misunderstood your request earlier! You wanted to add a step that is **in your assignment but not in the README file**. Here's an update where I will add the missing step to the README:
-
----
-
 # Multi-Omics Analysis Assignment
 
 This project involves exploratory data analysis of a Parkinson's disease dataset, specifically focusing on gene expression data. The workflow includes data loading, quality checks, PCA analysis, identifying variable genes, and visualization through heatmaps.
