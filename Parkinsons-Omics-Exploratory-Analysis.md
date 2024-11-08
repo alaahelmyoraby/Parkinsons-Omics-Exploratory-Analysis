@@ -137,4 +137,4 @@ col_fun <- colorRamp2(c(min(scaled_exp_data, na.rm = TRUE),
 Heatmap(scaled_exp_data, name = "Z-Score", top_annotation = column_ha, 
         col = col_fun, show_row_names = TRUE, show_column_names = TRUE)
 ```
-### **Thanks**
+### **Thanks!**
