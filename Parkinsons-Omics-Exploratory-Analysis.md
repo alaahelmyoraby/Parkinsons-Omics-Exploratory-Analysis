@@ -71,7 +71,7 @@ ggplot(dat, aes(x = values, fill = ind)) +
 ### 6. **Principal Component Analysis (PCA)**
 - PCA is performed on the expression data to reduce dimensionality and visualize the variance across samples.
   
-#### ** PCA Plot (Manual)**
+#### **PCA Plot (Manual)**
 - In the original script, PCA is performed manually using `prcomp()` and plotted using `ggplot2`.
   
 ```r
@@ -137,15 +137,3 @@ col_fun <- colorRamp2(c(min(scaled_exp_data, na.rm = TRUE),
 Heatmap(scaled_exp_data, name = "Z-Score", top_annotation = column_ha, 
         col = col_fun, show_row_names = TRUE, show_column_names = TRUE)
 ```
-
-## **Running the Script**
-1. Place both the `Parkinson_exp.csv` and `Parkinson_phenotable.csv` files in the same directory as the script.
-2. Open the script in an R environment and run the code step by step.
-3. Make sure all required packages are installed before running the analysis.
-
----
-
-## **Conclusion**
-This analysis provides a comprehensive workflow for analyzing transcriptomic data, from initial data quality checks and exploratory analysis to dimensionality reduction (PCA) and visualization. The enhanced PCA visualization using `ggfortify` offers a streamlined approach to PCA plotting. The generated heatmaps provide insight into the most variable genes in the dataset, allowing for further exploration of potential biomarkers for Parkinson’s Disease. 
-
----
