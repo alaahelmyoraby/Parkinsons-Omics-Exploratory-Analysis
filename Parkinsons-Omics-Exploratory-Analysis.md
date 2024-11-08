@@ -1,4 +1,4 @@
-# Multi-Omics Analysis Assignment
+# Parkinsons-Omics-Exploratory-Analysis
 
 This project involves exploratory data analysis of a Parkinson's disease dataset, specifically focusing on gene expression data. The workflow includes data loading, quality checks, PCA analysis, identifying variable genes, and visualization through heatmaps.
 
