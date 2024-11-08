@@ -1,4 +1,4 @@
-# **Parkinson's Disease Transcriptomics Analysis**
+# **Parkinsons-Omics-Exploratory-Analysis**
 
 This repository contains an R script for performing a variety of data analysis tasks on transcriptomic data. The primary goal is to analyze gene expression data, perform exploratory analysis, conduct PCA, and visualize the results. Additionally, heatmaps are generated to visualize the expression of the most variable genes.
 
